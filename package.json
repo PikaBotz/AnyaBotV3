@@ -67,7 +67,7 @@
     "fluent-ffmpeg": "latest",
     "form-data": "latest",
     "gifencoder": "latest",
-    "mongoose": "latest",
+    "mongodb": "latest",
     "mssql": "latest",
     "mysql2": "latest",
     "node-cache": "latest",
