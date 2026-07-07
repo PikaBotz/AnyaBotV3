@@ -1,19 +1,16 @@
 {
   "name": "AnyaBotV3",
-  "version": "3.0.0-proto-2",
+  "version": "3.0.0-proto-3",
   "description": "Queen Anya Gen 3 — Modular WhatsApp plugins based bot powered by Baileys",
   "type": "module",
   "main": "index.js",
-
   "minRAM": "1GB",
   "minROM": "8GB",
   "minCPU": "v1 Core",
   "minNodejs": "v20.x.x",
   "minNPM": "v11.x.x",
-  
   "author": "PikaBotz",
   "license": "MIT",
-
   "homepage": "https://github.com/PikaBotz/AnyaBotV3",
   "repository": {
     "type": "git",
@@ -22,7 +19,6 @@
   "bugs": {
     "url": "https://github.com/PikaBotz/AnyaBotV3/issues"
   },
-
   "keywords": [
     "whatsapp",
     "bot",
@@ -32,14 +28,11 @@
     "ai-bot",
     "nodejs"
   ],
-
   "engines": {
     "node": ">=20.0.0",
     "npm": ">=11.0.0"
   },
-  
   "engineStrict": true,
-
   "scripts": {
     "start": "node index.js",
     "dev": "node --watch index.js",
@@ -48,15 +41,14 @@
     "reinstall": "npm run clean && npm install",
     "update": "npm update"
   },
-
   "dependencies": {
     "@adiwajshing/keyed-db": "latest",
+    "@ffmpeg-installer/ffmpeg": "latest",
     "@google/generative-ai": "latest",
     "@hapi/boom": "latest",
     "@mistralai/mistralai": "latest",
     "@napi-rs/canvas": "latest",
     "@queenanya/baileys": "latest",
-    "@ffmpeg-installer/ffmpeg": "latest",
     "adm-zip": "latest",
     "awesome-phonenumber": "^2.64.0",
     "better-sqlite3": "latest",
@@ -71,22 +63,21 @@
     "mssql": "latest",
     "mysql2": "latest",
     "node-cache": "latest",
+    "node-notifier": "^10.0.1",
     "node-webpmux": "latest",
     "nodemailer": "latest",
     "onnxruntime-node": "latest",
     "pg": "latest",
     "pino": "latest",
-    "sucrase": "latest",
-    "sharp": "latest",
-    "tar": "latest",
     "qrcode": "latest",
-    "wa-sticker-formatter": "latest"
+    "sharp": "^0.34.5",
+    "tar": "latest",
+    "wa-sticker-formatter": "latest",
+    "youtube-dl-exec": "latest"
   },
-
   "overrides": {
     "canvas": "$@napi-rs/canvas"
   },
-
   "funding": {
     "type": "github",
     "url": "https://github.com/sponsors/PikaBotz"
